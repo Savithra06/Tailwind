@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+<!-- Tailwindcss cdn link-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <!--navbar-->
+    <nav class="bg-green-100 text-2xl p-4 flex justify-between items-center shadow-xl sticky top-0 z-50">
+
+        <!-- logo -->
+        <div>
+            <h1>Greenden</h1>
+        </div>
+
+        <!-- menu icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 block md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <!-- menu -->
+        <div class="hidden md:block">
+            <ul class="flex gap-x-4">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+
+
+<!--contact form-->
+
+<section class="px-4 md:px-6 py-6">
+   <div class="max-w-xl mx-auto">
+      <div class="mb-12">
+         <h2 class="text-3xl font-bold text-slate-900 mb-6 md:text-4xl">
+            Contact us
+         </h2>
+         <p class="text-base leading-relaxed text-slate-600">
+            🌿 Let’s Grow Together
+         </p>
+      </div>
+
+      <form class="space-y-6">
+         <div>
+            <label for="name"
+               class="mb-2 text-slate-900 font-medium text-sm inline-block">Name</label>
+            <input type="text" id="name" name="name" placeholder="John doe"
+               class="px-3 py-2.5 text-sm text-slate-900 w-full rounded-md bg-white outline-1 -outline-offset-1 outline-slate-300 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 border border-black" />
+         </div>
+         <div>
+            <label for="email"
+               class="mb-2 text-slate-900 font-medium text-sm inline-block">Email</label>
+            <input type="email" id="email" name="email" placeholder="john@readymadeui.com"
+               class="px-3 py-2.5 text-sm text-slate-900 w-full rounded-md bg-white outline-1 -outline-offset-1 outline-slate-300 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600  border border-black" />
+         </div>
+         <div>
+            <label for="phone" class="mb-2 text-slate-900 font-medium text-sm inline-block">Phone
+               number</label>
+            <input type="number" id="phone" name="phone" placeholder="+91 xxxxx xxxxx"
+               class="px-3 py-2.5 text-sm text-slate-900 w-full rounded-md bg-white outline-1 -outline-offset-1 outline-slate-300 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600  border border-black" />
+         </div>
+         
+         <div>
+            <label for="message"
+               class="mb-2 text-slate-900 font-medium text-sm inline-block">Drop your Message here...</label>
+            <textarea placeholder="Write message" rows="6" type="text" id="message" name="message"
+               class="px-3 py-2.5 text-sm text-slate-900 w-full rounded-md bg-white outline-1 -outline-offset-1 outline-slate-300 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600  border border-black"></textarea>
+         </div>
+
+         <button type="submit"
+            class="py-2.5 px-4 text-sm rounded-md font-semibold cursor-pointer text-white border border-blue-600 bg-blue-600 hover:bg-blue-700 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">Send
+            message</button>
+      </form>
+   </div>
+</section>
+
+
+    <!--Footer-->
+    <section class="bg-green-100 p-10 m-5">
+        <h1 class="text-4xl font-bold p-2">Greenden</h1>
+        <p class="p-2">Signup for our email newspaper to get exclusive discounts,update, and more.
+</p>
+<p>@ 2021 Greenday.com</p>
+    </section>
+    </div>
+</body>
+</html>

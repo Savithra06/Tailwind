@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+
+    <!-- Tailwindcss cdn link-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--navbar section-->
+    <nav class="bg-green-100 text-2xl p-4 flex justify-between items-center shadow-xl sticky top-0 z-50">
+
+        <!-- logo -->
+        <div>
+            <h1>Greenden</h1>
+        </div>
+
+        <!-- menu icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 block md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <!-- menu -->
+        <div class="hidden md:block">
+            <ul class="flex gap-x-4">
+                <li><a href="#">Home</a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+                <li><a href="./product.html">About us</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <!--header section-->
+    <div class="bg-green-100 p-4  flex justify-center">
+        <div>
+            <p class="mt-5">We offer you a wide range of Artificial and Natural Flowers</p>
+            <h2 class="font-bold text-4xl">Plants for your interior</h2>
+            <div>
+                <button class="bg-black text-white p-2 rounded">Shop now</button>
+                <button class="border border-black p-2 rounded m-3">Watch now</button>
+            </div>
+            <p>160|+ Plants species|100+ clients</p>
+        </div>
+        <div class="p-4 hidden md:block">
+            <img src="./images/images.jpg" alt="plant pot">
+        </div>
+
+    </div>
+    <!--about section-->
+    <div class="text-center">
+        <h2 class="text-2xl">About us</h2>
+        <p>This site for those who admire the beauty and harmony of nature</p>
+        <div class="md:flex">
+            <div class="border border-black p-2 m-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-10 h-10 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                </svg>
+
+                <h2 class="text-2xl">Large Attachment</h2>
+                <p>We offer our customers more then 15,000 items of natural and artificial flowers, trees and many
+                    accessories for floristry</p>
+            </div>
+            <div class="border border-black p-2 m-4">
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-10 h-10 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                </svg>
+
+                <h2 class="text-2xl">Free and Fast Shipping</h2>
+                <p>Free and Fast Shipping We will ship our goods after reciept of fund to current account choose the
+                    most convenient from the offered delivery option</p>
+            </div>
+            <div class="border border-black p-2 m-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-10 h-10 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M20.25 3.75v4.5m0-4.5h-4.5m4.5 0-6 6m3 12c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+                </svg>
+
+
+
+                <h2 class="text-2xl">24/7 Support</h2>
+                <p>We work seven days a week and a lunch break. we will be glad to welcome you as our buyer and thank
+                    you for trust in us</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Best seller-->
+    <section>
+        <p class="text-center text-3xl ">Best seller</p>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
+            <div class="p-5">
+                <img class="w-100 h-100 transform hover:-translate-y-2 inline shadow-xl" src="./images/g-1.png"
+                    alt="plant-pot ">
+                <p>cost:$100</p>
+            </div>
+
+            <div class="p-5">
+                <img class="w-100 h-100 transform hover:-translate-y-2 inline shadow-xl" src="./images/g-2.png"
+                    alt="plant-pot ">
+                <p>cost:$200</p>
+            </div>
+
+            <div class="p-5">
+                <img class="w-100 h-100 transform hover:-translate-y-2 inline shadow-xl" src="./images/g-3.png"
+                    alt="plant-pot ">
+                <p>cost:$150</p>
+            </div>
+
+
+            <div class="p-5">
+                <img class="w-100 h-100 transform hover:-translate-y-2 inline shadow-xl" src="./images/g-4.png"
+                    alt="plant-pot ">
+                <p>cost:$250</p>
+            </div>
+
+            <div class="p-5">
+                <img class="w-100 h-100 transform hover:-translate-y-2 inline shadow-xl" src="./images/g-5.png"
+                    alt="plant-pot ">
+                <p>cost:$80</p>
+            </div>
+
+            <div class="p-5">
+                <img class="w-100 h-100 transform hover:-translate-y-2 inline shadow-xl" src="./images/g-6.png"
+                    alt="plant-pot ">
+                <p>cost:$300</p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!--customer review-->
+    <section>
+        <h2 class="text-3xl text-center">customer Review</h2>
+        <div class="text-center">
+            <div class="p-4 border border-black bg-green-800 m-4 ">
+                <p>"Absolutely loved the plants! The quality is amazing and it added a fresh look to my home."</p>
+                   <p class="text-yellow-500"> – Priya S</p>
+            </div>
+            <div class="p-4 border border-black bg-green-800 m-4">
+                <p>" Fast delivery and healthy plants. Packaging was neat and secure. Highly recommended!" </p><p class="text-yellow-500">– Rahul K</p>
+            </div>
+
+            <div class="p-4 border border-black bg-green-800 m-4">
+                <p>" Great customer service and beautiful collection. Will definitely buy again." </p><p class="text-yellow-500">– Anitha R</p>
+            </div>
+            <div class="p-4 border border-black bg-green-800 m-4">
+                <p>" Great customer service and beautiful collection. Will definitely buy again." </p><p class="text-yellow-500">– Anitha R</p>
+            </div>
+            <div class="p-4 border border-black bg-green-800 m-4">
+                <p>" Good quality and easy to maintain plants. Perfect for beginners like me!"</p><p class="text-yellow-500"> – Arjun P</p>
+            </div>
+    </section>
+
+    <!--news letter-->
+    <section>
+<h1 class="font-bold text-3xl text-center">Join our News letter</h1>
+    <p class="text-center">Signup for our email newspaper to get exclusive discounts,update, and more.</p>
+<input type="text" class="border border-black p-2 m-3 w-4/5 block mx-auto">
+<button class="bg-black text-white p-3 block mx-auto">Subscribe</button>
+    </section>
+
+    <!--Footer-->
+    <section class="bg-green-100 p-10 m-5">
+        <h1 class="text-4xl font-bold p-2">Greenden</h1>
+        <p class="p-2">Signup for our email newspaper to get exclusive discounts,update, and more.
+</p>
+<p>@ 2021 Greenday.com</p>
+    </section>
+    </div>
+</body>
+
+</html>
